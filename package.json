@@ -4,7 +4,8 @@
   "private": true,
   "keywords": [
     "react-konva",
-    "react"
+    "react",
+    "Rect","Circle","Line","Text"
   ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
