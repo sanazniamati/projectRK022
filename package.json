@@ -1,11 +1,12 @@
 {
-  "name": "projectrk002",
+  "name": "projectrk014",
   "version": "0.1.0",
   "private": true,
+  "description": "To create a star with react- Konva",
   "keywords": [
     "react-konva",
     "react",
-    "Rect"
+    "Star"
   ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
