@@ -7,6 +7,6 @@ It provides declarative and reactive bindings to the [Konva Framework](https://k
 
 # picture Demo
 
-![Star](./img.png)
+![regular polygon](./img.png)
 
-**How To create a star with react- Konva ? **
+**How To create a regular polygon with react-Konva ? **

@@ -1,18 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Stage, Layer, Star } from "react-konva";
+import { Stage, Layer, RegularPolygon } from "react-konva";
 
 const App = () => {
   return (
     <Stage width={window.innerWidth} height={window.innerHeight}>
       <Layer>
-        <Star
+        <RegularPolygon
           x={150}
           y={150}
-          numPoints={6}
-          innerRadius={40}
-          outerRadius={70}
-          fill={"yellow"}
+          sides={6}
+          radius={70}
+          fill={"red"}
           stroke={"black"}
           strokeWidth={4}
         />
