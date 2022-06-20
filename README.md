@@ -9,4 +9,5 @@ It provides declarative and reactive bindings to the [Konva Framework](https://k
 
 ![regular polygon](./img.png)
 
-**How To create a regular polygon with react-Konva ? **
+**How To use fill property in react-Konva ?**
+**react-Konva  supports colors, patterns, linear gradients, and radial gradients.**
