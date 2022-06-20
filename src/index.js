@@ -16,6 +16,7 @@ const App = () => {
           strokeWidth={4}
           draggable
         />
+        {/*TODO how to use image for fillPatternImage*/}
         {/*<RegularPolygon*/}
         {/*  x={220}*/}
         {/*  y={200}*/}
@@ -27,7 +28,6 @@ const App = () => {
         {/*  strokeWidth={4}*/}
         {/*  draggable*/}
         {/*/>*/}
-
         {/*linearGradPentagon*/}
         <RegularPolygon
           x={360}
