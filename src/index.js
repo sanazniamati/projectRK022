@@ -1,8 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Stage, Layer, RegularPolygon } from "react-konva";
+import useImage from 'use-image';
 
+const url = 'https://konvajs.org/assets/lion.png';
 const App = () => {
+  const [image] = useImage(url);
+
   return (
     <Stage width={window.innerWidth} height={window.innerHeight}>
       <Layer>
@@ -16,18 +20,18 @@ const App = () => {
           strokeWidth={4}
           draggable
         />
-        {/*TODO how to use image for fillPatternImage*/}
-        {/*<RegularPolygon*/}
-        {/*  x={220}*/}
-        {/*  y={200}*/}
-        {/*  sides={5}*/}
-        {/*  radius={70}*/}
-        {/*  fillPatternImage={images.darthVader}*/}
-        {/*  fillPatternOffset={((x = -220), (y = 70))}*/}
-        {/*  stroke={"black"}*/}
-        {/*  strokeWidth={4}*/}
-        {/*  draggable*/}
-        {/*/>*/}
+        {/*TODO how to use image for  fillPatternOffset*/}
+        <RegularPolygon
+          x={220}
+          y={200}
+          sides={5}
+          radius={70}
+          fillPatternImage={image}
+          // fillPatternOffset({(x= 20 ),y= 10});
+          stroke={"black"}
+          strokeWidth={4}
+          draggable
+        />
         {/*linearGradPentagon*/}
         <RegularPolygon
           x={360}
